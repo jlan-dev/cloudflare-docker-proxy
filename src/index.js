@@ -3,7 +3,7 @@ addEventListener("fetch", (event) => {
   event.respondWith(handleRequest(event.request));
 });
 
-const dockerHub = "https://index.docker.io/v1/";
+const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
